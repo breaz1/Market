@@ -1,0 +1,148 @@
+.tovar{
+    width:13vw;
+    border:1px solid rgb(240, 233, 220);
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw 1vw 0vw 1vw;
+}
+
+.tovar-image{
+    width: 10vw;
+    height: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tovar-desc{
+    font-size: 0.8vw;
+    width:11vw;
+    font-weight: 400;
+    margin-left:1.2vw;
+}
+.tovar-price{
+    color: #000;
+    width:10vw;
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin-left:1.2vw;  
+}
+.tov-nalich{
+    align-items: center;
+    display: flex;
+    margin-left:1.2vw;
+}
+.tov-nalich-item-yes{
+    font-size: 0.8vw;
+    color:green;
+    margin-left:0.5vw;
+}
+.tov-nalich-icon-yes{
+    color:green;
+    font-size: 0.8vw;
+}
+.tov-nalich-item-no{
+    font-size: 0.8vw;
+    color:red;
+    margin-left:0.5vw;
+}
+.tov-nalich-icon-no{
+    color:red;
+    font-size: 0.8vw;
+}
+.buy-button {
+    background-color: white;
+    width:13vw;
+    border: 0px;
+    height: 3vh;
+    opacity: 0;
+    font-size: 0.8vw;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 0 0 5px 5px;
+}
+.nom1{
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+.nom2{
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+.tovar:hover .nom1{
+    opacity: 1;
+}
+.tovar:hover .nom2{
+opacity: 1;
+}
+
+.image-icons{
+    position: absolute;
+}
+.buy-button:hover{
+    background-color: black;
+    color: white;
+}
+.buy-cart{
+    cursor: pointer;
+    border: 0px;
+    font-weight: 700;
+    font-size: 0.8vw;
+    background-color: #312e39;
+    color: white;
+    height: 4vh;
+    width: 7vw;
+    border-radius: 5px 5px 5px 5px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+.buy-cart:hover{
+    background-color: orange;
+    color:black;
+}
+.hover-items{
+    justify-items: center;
+    display: grid;
+    bottom: 1rem;
+    left: 25%;
+    width: 100%;
+    z-index: 5;
+    margin-top: -85%;
+    margin-left: 43%;
+}
+.tovar:hover .buy-button{
+    opacity: 1;
+  }
+  .tovar:hover .buy-cart{
+    opacity: 1;
+  }
+.hover-icons{
+    justify-content: space-around;
+    width: 100px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.img{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 100%;
+    border:10px;
+    align-items: center;
+    justify-content: center;
+    border:1px solid white;
+    color:gray;
+    transition: 0.2s ease-in-out;
+}
+.icon:hover{
+    color:black;
+    border:1px solid gray;
+}
+.icon-item{
+    font-size: 0.8vw;
+}

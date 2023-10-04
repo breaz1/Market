@@ -1,0 +1,140 @@
+.product-card{
+    display:flex;
+    margin-top: 4vh;
+    justify-content: center;
+}
+.product-image{
+    margin-right: 4vw;
+    width: 30vw;
+    height: 30vw;
+}
+.product-card-title{
+    margin-top:5vh;
+    font-size: 3vw;
+}
+.product-card-description{
+   width:40vw;
+   word-wrap: break-word;
+   font-size:1vw;
+}
+.product-card-price{
+    font-size:1.8vw;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+.product-count {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    max-width: 8vw;
+    justify-content: center;
+  }
+  
+  .product-count-changer {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #bebebe;
+    transition: all 0.3s;
+    font-size: 0.8vw;
+    flex-grow: 0; /* Prevent stretching */
+  }
+  
+  .product-count-changer:hover {
+    color: #817f7f;
+  }
+  
+  .product-count-change {
+    width: 4vw;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    font-size: 0.8vw;
+  }
+  
+
+.confirm-button{
+    margin-top: 2vh;
+}
+.product-icons{
+    margin-top: 0.2vh;
+}
+.product-line{
+    height: 1px;
+    width: 40vw;
+    background-color: gray;
+}
+/*АНИМАЦИЯ*/
+body{
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+  .spin-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    margin-top: -10vh;
+  
+    .spinner{
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      border: 3px solid transparent;
+      border-top-color: #A04668;
+      top: 50%;
+      left: 50%;
+      margin: -30px;
+      border-radius: 50%;
+      animation: spin 2s linear infinite;
+      
+      &:before, &:after{
+        content:'';
+        position: absolute;
+        border: 3px solid transparent;
+        border-radius: 50%;
+      }
+      
+      &:before{
+        border-top-color: #254E70;
+        top: -12px;
+        left: -12px;
+        right: -12px;
+        bottom: -12px;
+        animation: spin 3s linear infinite;
+      }
+      
+      &:after{
+        border-top-color: #FFFBFE;
+        top: 6px;
+        left: 6px;
+        right: 6px;
+        bottom: 6px;  
+        animation: spin 4s linear infinite;
+      }
+    }
+  }
+  
+  @keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+  }
+  /*АНИМАЦИЯ*/
+
+  .backPop{
+    width: 80% !important;
+    border-radius: 25px;
+    background-color: white;
+  }
+
+.t{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.pop-container{
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}

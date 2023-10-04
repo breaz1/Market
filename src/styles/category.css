@@ -1,0 +1,28 @@
+.category{
+    font-size: 0.8vw;
+    display:flex;
+    padding: 0 1vw 0vw 1vw;
+    align-items: center;
+    justify-content: space-between;
+    width: 12vw;
+}   
+.category-line{
+    height: 1px;
+    width: 12vw;;
+    background-color: #bebebe;
+    margin-left: auto;
+    margin-right: auto;
+}
+.category:hover{
+    background-color: #bebebe;
+}
+.category:hover .category-line {
+    display: none;
+  }
+.main-category{
+    z-index: 100;
+}
+
+.category-hover{
+    background-color: #bebebe;
+}
