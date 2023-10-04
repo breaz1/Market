@@ -1,6 +1,6 @@
 <h1 align="left">Market on react js</h1>
 <p align="left">Интернет магазин на стеке: ReactJS, redux toolkit</p><br>
-<p align="left">Также использовались такие технологии, как: webpack, MUI, axios, express, babel. <br>
+<p align="left">Также использовались такие технологии, как: webpack, axios, express, babel. <br>
 Можно реализовать SSR с помощью express.</p><br>
 <p>Для запуска, необходимо склонировать репозиторий, установить библиотеки с помощью</p>
 <h2>npm i</h1>
