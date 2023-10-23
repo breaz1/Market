@@ -1,5 +1,5 @@
 <h1 align="left">Market on react js</h1>
-<p align="left">Интернет магазин на стеке: ReactJS, redux toolkit</p>
+<p align="left">Интернет магазин на стеке: ReactJS, redux toolkit. DEPLOY: http://innovel.online</p>
 <p align="left">Также использовались такие технологии, как: webpack, axios, express, babel.
 Можно реализовать SSR с помощью express.</p><br>
 <p>Для запуска, необходимо склонировать репозиторий, установить библиотеки с помощью</p>
